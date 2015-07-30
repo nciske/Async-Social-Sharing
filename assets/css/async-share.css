@@ -33,3 +33,11 @@ ul.async-list li.fb-share, ul.async-list li.gplus-share, ul.async-list li.linked
  li.fb-share .fb_iframe_widget span {
  	vertical-align: baseline !important;
  }
+
+/* Add this css to get Facebook window to display properly */
+.fb-like span {
+  overflow:visible !important;
+  height: 250px !important;
+  width:450px !important;
+  margin-right:-375px;
+}
